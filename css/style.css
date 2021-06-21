@@ -1,0 +1,2107 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Playfiar Display';
+}
+body{
+    overflow-x: hidden;
+}
+.bgimg{
+	background-image: url('../image/4.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 40rem;
+}
+
+.headnav nav{
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 100px;
+  
+  width: 100%;
+}
+nav .logo{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+.logo img{
+    height: 2.5rem;
+    width: 5rem;
+}
+nav .nav-items{
+  display: flex;
+  flex: 1;
+  padding: 0 0 0 40px;
+}
+nav .nav-items li{
+  list-style: none;
+  padding: 0 15px;
+}
+nav .nav-items li a{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+nav .nav-items li a:hover{
+  color: #ff3d00;
+}
+.b1{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+   
+}
+.b1 li{
+    background-color: #0328b1;
+    list-style: none;
+    padding: .3rem;
+    border-radius: .2rem;
+
+}
+.b1  a{
+    color: #fff;
+    text-decoration: none;
+    font-size: .1rem;
+}
+.b1 li:hover{
+    color: #fff;
+    background-color: #07909e;
+}
+.b1 li:hover a{
+    color: #fff;
+   
+}
+
+.button1{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding-top: .7rem;
+}
+.button01 li{
+    background-color: #0328b1;
+    list-style: none;
+    padding: .3rem;
+    border-radius: .2rem;
+
+}
+.button01  a{
+    color: #fff;
+    text-decoration: none;
+    font-size: .1rem;
+}
+.button01 li:hover{
+    color: #fff;
+    background-color: #07909e;
+}
+.button01 li:hover a{
+    color: #fff;
+}
+.button02 li{
+    background-color: #0328b1;
+    list-style: none;
+    padding: .3rem;
+    border-radius: .2rem;
+
+}
+.button02 li:hover{
+    color: #fff;
+    background-color: #07909e;
+}
+.button02 li:hover a{
+    color: #fff;
+}
+.button02{
+    padding-left: 1rem;
+}
+.button02  a{
+    color: #fff;
+    text-decoration: none;
+    font-size: .1rem;
+}
+nav form{
+  display: flex;
+  height: 40px;
+  padding: 2px;
+  background: #1e232b;
+  min-width: 18%!important;
+  border-radius: 2px;
+  border: 1px solid rgba(155,155,155,0.2);
+}
+nav form .search-data{
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 17px;
+  border: none;
+  font-weight: 500;
+  background: none;
+}
+nav form button{
+  padding: 0 15px;
+  color: #fff;
+  font-size: 17px;
+  background: #ff3d00;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+nav form button:hover{
+  background: #e63600;
+}
+nav .menu-icon,
+nav .cancel-icon,
+nav .search-icon{
+  width: 40px;
+  text-align: center;
+  margin: 0 50px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+nav .menu-icon span,
+nav .cancel-icon,
+nav .search-icon{
+  display: none;
+}
+
+
+  .header_cont img
+  {
+      margin-left: 23.9rem;
+      height: 8rem;
+      width: 14rem;
+      padding-top: 2;
+  }
+  .header_cont{
+  padding-top: 9rem;
+  }
+  .header_cont h5{
+    color: #fff;
+    margin-left: 22rem;
+    padding-top: .5rem;
+    font-size: revert;
+  }
+  
+  
+  .bt{
+    margin-left: 19rem;
+  }
+
+
+  .headtext{
+    color: #fff;
+    padding-left: 4rem;
+    padding-top: 5.5rem;
+    width: 57%;
+}
+.headtext h3{
+ font-size: x-large;
+font-weight: bold;
+}
+.headtext p{
+font-size: smaller;
+margin-bottom: 0;
+}
+
+.video {
+    width: 115%;
+    border: 1px solid black;
+    border-radius: .5rem;
+}
+.wrapper{
+    display:table;
+    width:auto;
+    position:relative;
+    width: 75%;
+    margin-top: 6.2rem;
+}
+
+.unlimited{
+    display: flex;
+    padding-left: 4rem;
+}
+
+
+
+/* start card section */
+
+
+.cards {
+	height: 67rem;
+	padding: 4rem 0px 6rem;
+	width: 100%;
+    background-color: aliceblue;
+    padding-right: 3rem;
+}    
+	 
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 107%;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.cards h2{
+    margin-left: 3rem;
+}
+
+
+.cards .row{
+    width: 110%;
+}
+
+.card-body{
+    background-color: #004d99;
+    color: #fff;
+    
+    
+}
+.icon{
+    padding-right: 5rem;
+}
+.card .icon i{
+    font-size: smaller;
+    color: #ffa31a;
+}
+.card i{
+    
+    color: #fff;
+}
+.card footer{
+display: flex;
+margin-top: 1rem;
+}
+.card footer p{
+    margin-left: 4rem;
+}
+
+.cards {
+    color: blue;
+}
+.dropdwon button .btn{
+   height: 2rem;
+   margin-bottom: 0rem;
+}
+.card-body p
+{
+    font-size: smaller;
+    margin-bottom: 0;
+    text-align: initial;
+    font-family: system-ui;
+}
+.card-body h6 {
+    font-size: 5px;
+    text-align: initial;
+    font-family: fantasy;
+}
+.card img{
+    height: 10rem;
+    border-top-left-radius: .8rem;
+    border-top-right-radius: .8rem;
+}
+.box{
+    display: flex;
+    padding-top: .5rem;
+
+   
+}
+.box img{
+    border-radius: 2rem;
+}
+
+
+.cardbt{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    background-color: #fff;
+    width: 13.1rem;
+    margin-bottom: 1rem;
+    border-bottom-left-radius: .8rem;
+    border-bottom-right-radius: .8rem;
+}
+.button03 li{
+    background-color: #0080ff;
+    list-style: none;
+    padding: .2rem;
+    border-radius: .2rem;
+
+}
+.button03  a{
+    color: #fff;
+    text-decoration: none;
+    font-size: .1rem;
+    font-family: auto;
+}
+.button04 li{
+   
+    list-style: none;
+    padding: .2rem;
+
+}
+.button04{
+    padding-left: 1rem;
+}
+.button04  a{
+    color:blue;
+    text-decoration: none;
+    font-size: .1rem;
+}
+.button03 li:hover{
+    color: #fff;
+    background-color: aquamarine;
+}
+.cards button{
+    height: 2rem;
+    width: 7rem;
+    font-family: monospace;
+    background-color: #004d99;
+}
+.cards nav{
+    width: 108.5%;
+    margin-bottom: 1rem;
+
+}
+.cardimg img
+    {
+        height: 24rem;
+        margin-bottom: 1rem;
+        border-bottom-left-radius: .8rem;
+        border-bottom-right-radius: .8rem;
+    }
+    .cardimg{
+        background-color: aliceblue;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 112%;
+        width: 100%;
+        opacity: 0;
+        transition: .3s ease;
+        background-image: url('../image/hands.jpg');
+       
+        border-radius: .5rem;
+      }
+     
+      
+      .card:hover .overlay {
+        opacity: 1;
+      }
+      .cards h3 {
+        color: #fff;
+        font-family: ui-serif;
+        font-size: small;
+        padding-top: 21rem;
+    }
+    .overlay1 {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 112%;
+        width: 100%;
+        opacity: 0;
+        transition: .3s ease;
+        background-image: url('../image/You.jpg');
+        border-radius: .5rem;
+      }
+      .card:hover .overlay1 {
+        opacity: 1;
+      }
+      .overlay2 {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 112%;
+        width: 100%;
+        opacity: 0;
+        transition: .3s ease;
+        background-image: url('../image/1bot.jpg');
+        border-radius: .5rem;
+      }
+      .card:hover .overlay2 {
+        opacity: 1;
+      }
+      .overlay3 {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 112%;
+        width: 100%;
+        opacity: 0;
+        transition: .3s ease;
+        background-image: url('../image/UK.jpg');
+        border-radius: .5rem;
+      }
+      .card:hover .overlay3 {
+        opacity: 1;
+      }
+      .overlay4 {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 112%;
+        width: 100%;
+        opacity: 0;
+        transition: .3s ease;
+        background-image: url('../image/photo.jpg');
+        border-radius: .5rem;
+      }
+      .card:hover .overlay4 {
+        opacity: 1;
+      }
+      .overlay5 {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 112%;
+        width: 100%;
+        opacity: 0;
+        transition: .3s ease;
+        background-image: url('../image/laravel1.jpg');
+        border-radius: .5rem;
+      }
+      .card:hover .overlay5 {
+        opacity: 1;
+      }
+      
+
+    .videoimg img
+        {
+            height: 10rem;
+        }
+        .videoimg
+        {
+            padding-top: 6rem;
+        }
+
+        .button05{
+            width: 10rem;
+            margin-left: 23rem;
+            padding-top: 1rem;
+        }
+
+        .button05 li{
+            background-color: #0080ff;
+            list-style: none;
+            padding: .2rem;
+            border-radius: .2rem;
+        
+        }
+        .button05  a{
+            color: #fff;
+            text-decoration: none;
+            font-size: .1rem;
+        }
+        .button05 li:hover{
+            color: #fff;
+            background-color: aquamarine;
+        }
+    .we_coll{
+        height: 12rem;
+
+    }
+
+        .alllogo{
+            margin-left: 4rem;
+            padding-top: 2rem;
+        }
+        .allh{
+            margin-left: 22rem;
+            padding-top: 2rem;
+            font-weight: bold;
+        }
+        .alllogo img {
+            height: 3rem;
+            width: 7rem;
+            margin-left: 3rem;
+        }
+/*  start we learn section */
+
+
+/*  start strngth number */
+
+.stc{
+    margin-top: 3rem;
+    margin-left: -13rem;
+}
+.num{
+    display: flex;
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+.num1{
+    padding-left: 4rem;
+}
+.num1 h3{
+    font-size: 1.75rem;
+    margin-left: 2rem;
+    font-weight: bold;
+}
+.num1 p
+     {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: .3rem;
+        margin-right: 1rem;
+    }
+    .st{
+        height: 15rem;
+    }
+
+.sth{
+    margin-left: 35rem;
+   padding-top: 1rem;
+   font-weight: bold;
+}
+
+.vl {
+    border-left: 2px solid black;
+    height: 5rem;
+  }
+  .v2 {
+    border-left: 2px solid black;
+    height: 5rem;
+    margin-left: 2rem;
+  }
+
+  .sleft{
+      display: flex;
+  }
+  .sright{
+      display: flex;
+  }
+
+
+/*  start strngth number */
+
+.learn{
+    height: 32rem;
+}
+
+.limage{
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+.limage img{
+    height: 24rem;
+    width: 28rem;
+}
+.learnany
+    {
+        display: flex;
+        background-color: #e6eeff;
+        height: 32rem;
+        width: 100%;
+    }
+.lright{
+    margin-left: 12rem;
+    margin-top: 4rem;
+}
+.lright h3{
+    font-weight: bold;
+    font-family: serif;
+   
+}
+.rights{
+    display: flex;
+    margin-right: 6rem;
+    padding-top: 1.5rem;
+}
+.rights h4{
+    margin-bottom: 1.3rem;
+
+}
+.rights img{
+    width: 3rem;
+    margin-bottom: .9rem;
+}
+.rights h5{
+    font-weight: bold;
+    font-family: monospace;
+}
+.rights p{
+    font-family: monospace;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: initial;
+}
+
+/* end strngth number */
+
+/* start carusel card */
+.bodys{
+    background-color: aliceblue;
+    padding: 1rem;
+    margin: 1rem;
+    border: .1rem solid aliceblue;
+    border-radius: 1.5rem;
+    width: 15.5rem;
+    height: 16rem;
+    
+}
+.bodys p{
+    font-size: xx-small;
+    padding-top: 1rem;
+}
+.bodys i{
+    color: #ffc107;
+}
+.box p{
+   
+    font-size: .1rem;
+}
+.box h5{
+    font-size: .5rem;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+.start{
+    display: flex;
+   
+    
+}
+
+.bodyb{
+    background-color: #111235;
+    color: lemonchiffon;
+    padding: 1rem;
+    margin: 4rem;
+    border: .1rem solid aliceblue;
+    border-radius: 1.5rem;
+    text-align: center;
+}
+
+.box{
+    padding-top: 0rem;
+}
+
+
+.carousel {
+    position: relative;
+    padding-left: 6rem;
+}
+
+
+.slider{
+    max-width: 1100px;
+    display: flex;
+  }
+  .slider .card{
+    flex: 1;
+    margin: 0 10px;
+    background: #fff;
+  }
+    .wht{
+     margin-left: 12rem;
+    font-weight: bold;
+    font-size: x-large;
+    padding-bottom: 1rem;
+    }
+    .caro_p{
+    margin-left: 21rem;
+    font-size: .9rem;
+    }
+  /* end carusel card */
+  
+  /* start pricing table */
+
+  .wrapper{
+    max-width: 1090px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3rem;
+  }
+  .wrapper .table{
+    
+    border-radius: 3rem;
+    background-image: linear-gradient(to right top, #051937, #021a3d, #011a42, #001a48, #001a4d);
+    width: calc(96% - 20px);
+    padding: 30px 30px;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  }
+  
+  .table .price-section{
+    display: flex;
+    justify-content: center;
+  }
+  .table .price-area{
+    height: 120px;
+    width: 285px;
+    border-radius: 50%;
+    padding: 2px;
+  }
+  .price-area .inner-area{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    line-height: 117px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+  }
+  .price-area .inner-area .text{
+    font-size: 25px;
+    font-weight: 400;
+    position: absolute;
+    top: -10px;
+    left: 17px;
+  }
+  .price-area .inner-area .price{
+    font-size: 45px;
+    font-weight: 500;
+    margin-left: 16px;
+  }
+  .table .package-name{
+    width: 100%;
+    height: 2px;
+    margin: 35px 0;
+    position: relative;
+  }
+  .table .package-name::before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 25px;
+    font-weight: 500;
+    background: #fff;
+    padding: 0 15px;
+    transform: translate(-50%, -50%);
+  }
+  
+  .table .features li{
+    list-style: none;
+    display: flex;
+    
+  }
+  .features li .list-name{
+    font-size: 10px;
+    color: #fff;
+    padding-right: 1.8rem;
+  }
+  .features li .icon{
+    font-size: 15px;
+  }
+  .features li .icon.check{
+    color: #fff;
+  }
+  .features li .icon.cross{
+    color: #cd3241;
+  }
+  .table .btn{
+    width: 100%;
+    display: flex;
+    margin-top: 35px;
+    justify-content: center;
+  }
+  .table .btn button{
+    width: 80%;
+    height: 50px;
+    color: #F0F3F4;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .table .btn button:hover{
+    border-radius: 5px;
+  }
+    .btn_group {
+        margin-left: 22rem;
+    }
+  
+  .price_card h1{
+    margin-left: 23rem;
+    font-size: 2rem;
+  }
+  .price_card p{
+    margin-left: 23rem;
+    font-size: .5rem;
+}
+.price_card {
+padding-top: 3rem;
+}
+  
+  
+  .basic ::selection,
+  .basic .price-area,
+  .basic .inner-area,
+  .basic .btn button{
+   color: black;
+  }
+  
+  .basic .btn button:hover{
+    background: #43ef8b;
+    color: #fff;
+  }
+  .pro ::selection,
+  .pro .price-area,
+  .pro .inner-area,
+  .pro .btn button{
+    color: black;
+  }
+  .pro .btn button:hover{
+    background: #43ef8b;
+    color: #fff;
+  }
+  .team ::selection,
+  .team .price-area,
+  .team .inner-area,
+  .team .btn button{
+    color: black;
+  }
+  
+  .team .btn button:hover{
+    background: #43ef8b;
+    color: #fff;
+  }
+  
+  .basic .package-name::before{
+    content: "Basic";
+  }
+  .pro .package-name::before{
+    content: "Pro";
+    font-size: 24px;
+  }
+  .team .package-name::before{
+    content: "TEAM";
+    font-size: 24px;
+  }
+  .price{
+        color: #fff;
+        font-size: x-large;
+        font-weight: bold;
+        margin-left: 3.9rem;
+  }
+  .price-area .pricep{
+    margin-left: 4.5rem;
+  }
+  .price-area p{
+        color: white;
+        font-size: x-small;
+        margin-left: 2rem;
+  }
+
+  .btn{
+      position: relative;
+      height: 56px;
+  }
+  .btn input{
+      position: relative;
+      width: 200px;
+      height: 50px;
+      border-radius: 25px;
+      outline: none;
+      appearance: none;
+      font-weight: bold;
+      box-shadow: 1px 6px 11px #000000;
+  }
+  .btn input:before,
+  .btn input::after{
+      z-index: 2;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #111;
+  }
+  .btn input:before{
+        content: "Monthly";
+        left:40px;
+  }
+  .btn input:after{
+    content: "Annual";
+    right:40px;
+}
+.btn label{
+    z-index: 1;
+    position:absolute;
+    top:10px;
+    bottom: 10px;
+    border-radius: 20px;
+}
+.btn.btn-1 input{
+    transition: 0.2s -0.1s;
+}
+.btn.btn-1 input:checked{
+    background: #fff;
+    width: 14rem;
+    height: 3rem;
+}
+.btn.btn-1 input:checked:before{
+    color: #111;
+    transition:color 0.5s 0.2s;
+}
+.btn.btn-1 input:checked:after{
+    color: #111;
+    transition:color 0.5s;
+}
+.btn.btn-1 input:checked+label{
+    left: 27px;
+    right: 151px;
+    bottom: -17px;
+   background: #1B4F72;
+    transition:left 0.5s, right 0.4s 0.2s;
+}
+.btn.btn-1 input:not(:checked){
+    background: #1B4F72;
+    transition: background 0.5s -0.1s;
+    width: 14rem;
+    height: 3rem;
+}
+.btn.btn-1 input:not(:checked):before{
+   color: #111;
+    transition: color 0.5s;
+}
+.btn.btn-1 input:not(:checked):after{
+    color: #111;
+     transition: color 0.5s 0.2s;
+ }
+ .btn.btn-1 input:not(:checked)+label{
+    left: 170px;
+    right: 24px;
+    bottom: -17px;
+    background: #fff;
+    transition: right 0.4s 0.2s, left 0.5s background 0.5s -0.1s;
+ }
+  .wrapper h5{
+    font-size: .9rem;
+    color: #fff;
+    padding-left: 5rem;
+    padding-top: 2rem;
+  }
+  
+  .foot{
+    background-color: #1B4F72;
+    color: #fff;
+    height: 18rem;
+    width: 100%;
+    
+}
+.bodyf{
+    margin-top: 4rem;
+    padding-left: 2rem;
+}
+.bodyf p{
+    font-size: .5rem;
+    
+}
+.bodyf h7{
+    font-size: .5rem;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #1B4F72;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 70px;
+    border: 2px solid #fff;
+    
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+  #myBtn i{
+      transition: 1s;
+  }
+  
+
+ 
+
+
+@media (min-width:1246px) {
+    
+    nav form{
+        position: absolute;
+        top: 80px;
+        right: 50px;
+        opacity: 0;
+        pointer-events: none;
+        transition: top 0.3s ease, opacity 0.1s ease;
+      }
+      nav form.active{
+        top: 95px;
+        opacity: 1;
+        pointer-events: auto;
+      }
+      nav form:before{
+        position: absolute;
+        content: "";
+        top: -13px;
+        right: 0px;
+        width: 0;
+        height: 0;
+        z-index: -1;
+        border: 10px solid transparent;
+        border-bottom-color: #1e232b;
+        margin: -20px 0 0;
+      }
+      nav form:after{
+        position: absolute;
+        content: '';
+        height: 60px;
+        padding: 2px;
+        background: #1e232b;
+        border-radius: 2px;
+        min-width: calc(100% + 20px);
+        z-index: -2;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      nav .search-icon,
+      nav .menu-icon span{
+        display: block;
+      }
+      nav .cancel-icon.show{
+        display: block;
+      }
+      nav .menu-icon span.hide,
+      nav .search-icon.hide{
+        display: none;
+      }
+    
+}
+
+
+
+
+
+@media (max-width: 1245px) {
+   
+  nav{
+    padding: 0 50px;
+  }
+  nav form{
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    opacity: 0;
+    pointer-events: none;
+    transition: top 0.3s ease, opacity 0.1s ease;
+  }
+  nav form.active{
+    top: 95px;
+    opacity: 1;
+    pointer-events: auto;
+    transition: .5s;
+  }
+  nav form:before{
+    position: absolute;
+    content: "";
+    top: -13px;
+    right: 0px;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    border: 10px solid transparent;
+    border-bottom-color: #1e232b;
+    margin: -20px 0 0;
+  }
+  nav form:after{
+    position: absolute;
+    content: '';
+    height: 60px;
+    padding: 2px;
+    background: #1e232b;
+    border-radius: 2px;
+    min-width: calc(100% + 20px);
+    z-index: -2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  nav .search-icon,
+  nav .menu-icon span{
+    display: block;
+  }
+  nav .cancel-icon.show{
+    display: block;
+  }
+  .cards {
+    height: 77rem;
+}
+.alllogo {
+    margin-left: 2rem;
+}
+
+.limage img {
+    height: 22rem;
+    width: 25rem;
+}
+.lright {
+    margin-left: 11rem;
+    margin-top: 4rem;
+}
+.rights {
+    display: flex;
+    padding-right: 0rem;
+    margin-right: 6rem;
+}
+.bodys{
+    width: 13rem;
+    height: 20rem;
+}
+}
+@media (max-width: 1140px){
+  nav{
+    padding: 0px;
+  }
+  nav .logo{
+    flex: 2;
+    text-align: center;
+  }
+  nav .nav-items{
+    position: fixed;
+    z-index: 99;
+    top: 70px;
+    width: 100%;
+    left: -100%;
+    height: 100%;
+    padding: 10px 50px 0 50px;
+    text-align: center;
+    background: #14181f;
+    display: inline-block;
+    transition: left 0.3s ease;
+  }
+  nav .nav-items.active{
+    left: 0px;
+  }
+  nav .nav-items li{
+    line-height: 40px;
+    margin: 30px 0;
+  }
+  nav .nav-items li a{
+    font-size: 20px;
+  }
+  nav form{
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    opacity: 0;
+    pointer-events: none;
+    transition: top 0.3s ease, opacity 0.1s ease;
+  }
+  nav form.active{
+    top: 95px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  nav form:before{
+    position: absolute;
+    content: "";
+    top: -13px;
+    right: 0px;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    border: 10px solid transparent;
+    border-bottom-color: #1e232b;
+    margin: -20px 0 0;
+  }
+  nav form:after{
+    position: absolute;
+    content: '';
+    height: 60px;
+    padding: 2px;
+    background: #1e232b;
+    border-radius: 2px;
+    min-width: calc(100% + 20px);
+    z-index: -2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  nav .menu-icon{
+    display: block;
+  }
+  nav .search-icon,
+  nav .menu-icon span{
+    display: block;
+  }
+  nav .menu-icon span.hide,
+  nav .search-icon.hide{
+    display: none;
+  }
+  nav .cancel-icon.show{
+    display: block;
+  }
+
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.content header{
+  font-size: 30px;
+  font-weight: 700;
+}
+.content .text{
+  font-size: 30px;
+  font-weight: 700;
+}
+.space{
+  margin: 10px 0;
+}
+nav .logo.space{
+  color: red;
+  padding: 0 5px 0 0;
+}
+.header_cont img {
+    margin-left: 17.9rem;
+}
+.header_cont h5 {
+    
+    margin-left: 15rem;
+}
+.bt {
+    margin-left: 13rem;
+}
+
+.headtext h3 {
+    font-size: small;
+}
+.headtext{
+    width: 56%;
+}
+.wrapper{
+    margin-top: 8.2rem;
+}
+nav .nav-items {
+    position: absolute;
+}
+.cards {
+    height: 77rem;
+}
+.alllogo{
+    margin-left: 0rem;
+}
+.alllogo img{
+    width: 6rem;
+}
+.allh {
+    margin-left: 17rem;
+}
+.button05{
+    margin-left: 19rem;
+}
+.cardbt{
+    justify-content: end;
+    width: 10.7rem;
+}
+.button04 {
+    padding-left: .5rem;
+}
+.cardimg img {
+    height: 29rem;
+
+}
+.icon {
+    padding-right: 3rem;
+}
+.cards .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .1rem;
+    font-family: monospace;
+}
+.limage img {
+    height: 23rem;
+    width: 18rem;
+}
+.lright h3 {
+    /* font-weight: bold; */
+    font-family: serif;
+}
+.lright {
+    margin-left: 6rem;
+    margin-top: 4rem;
+}
+.rights {
+    display: flex;
+    padding-right: 0rem;
+    margin-right: 6rem;
+}
+.num1 {
+    padding-left: 2rem;
+}
+.num{
+    margin-left: 0rem;
+}
+.sth {
+    margin-left: 29rem;
+}
+.bodys p {
+    font-family: monospace;
+    padding-top: 1rem;
+    font-size: .9rem;
+}
+.bodys {
+    width: 12rem;
+}
+.wrapper .table{
+    width: calc(50% - 20px);
+    margin-bottom: 40px;
+  }
+  .wht {
+    margin-left: 6rem;
+
+  }
+  .caro_p {
+    margin-left: 15rem;
+  }
+  .price_card h1 {
+    margin-left: 16rem;
+  }
+  .price_card p {
+    margin-left: 16rem;
+  }
+  .btn_group {
+    width: 29%;
+    margin-left: 16rem;
+  }
+  .wrapper{
+      width: 68%;
+  }
+  
+}
+
+@media (max-width: 980px){
+  
+  nav .menu-icon,
+  nav .cancel-icon,
+  nav .search-icon{
+    margin: 0 20px;
+  }
+  nav form{
+    right: 30px;
+  }
+  .header_cont img {
+    margin-left: 12.9rem;
+}
+
+.header_cont img {
+    margin-left: 14.9rem;
+    height: 7rem;
+    width: 11rem;
+}
+.header_cont{
+    padding-top: 8rem;
+
+}
+.header_cont h5 {
+    margin-left: 13.7rem;
+}
+.headtext {
+    color: #fff;
+    padding-top: 5.5rem;
+    width: 57%;
+    padding-left: 0px;
+}
+.headtext h3 {
+    font-size: medium;
+    font-weight: bold;
+}
+.headtext p {
+    font-size: xx-small;
+    margin-bottom: 0;
+}
+.bt {
+    margin-left: 8rem;
+}
+
+.wrapper{
+    margin-top: 8.2rem;
+}
+video {
+    width: 124%;
+}
+.icon{
+    display: flex;
+}
+.cardbt{
+    width: 16.7rem;
+}
+.cardimg img {
+    height: 31.5rem;
+}
+nav .nav-items {
+    position: absolute;
+}
+.videoimg img {
+    height: 9rem;
+}
+.videoimg {
+    padding-top: 5rem;
+}
+.button05 {
+    margin-left: 12rem;
+}
+.cards {
+    height: 112rem;
+    padding-right: 0rem;
+}
+.card {
+    width: 88%;
+    margin-left: 1rem;
+}
+.cardbt {
+    width: 13.8rem;
+    margin-left: 1rem;
+}
+.allh {
+    margin-left: 14rem;
+}
+.alllogo {
+    margin-left: 2rem;
+}
+.alllogo img {
+    width: 4rem;
+}
+
+.header_cont img {
+    margin-left: 16.9rem;
+
+}
+.limage {
+    margin-left: 1rem;
+    margin-top: 4rem;
+}
+.limage img {
+    height: 26rem;
+    width: 16rem;
+}
+.lright {
+    margin-left: 4rem;
+    width: 23rem;
+}
+.lright h3 {
+    font-weight: bold;
+   
+}
+.rights h5 {
+    font-weight: bold;
+    font-size: smaller;
+}
+.sth {
+    margin-left: 26rem;
+}
+.bodys p {
+    
+    padding-top: 1rem;
+    font-size: .9rem;
+}
+.carousel {
+    position: relative;
+    padding-left: 3rem;
+}
+.bodys {
+    width: 12rem;
+}
+.wht {
+    margin-left: 10rem;
+    font-size: large;
+}
+.wrapper p {
+    margin-left: 1.5rem;
+}
+.price_card.p{
+    margin-left: 16rem;
+}
+.wrapper h5 {
+    padding-top: 1rem;
+}
+.caro_p {
+    margin-left: 17rem;
+}
+.btn_group {
+    width: 37%;
+}
+.wrapper {
+    width: 76%;
+    margin-left: 6rem;
+}
+.wrapper .table {
+    width: calc(100% - 20px);
+    margin-bottom: 40px;
+}
+.foot {
+    height: 19rem;
+}
+#myBtn {
+    right: 4rem;
+}
+
+}
+
+@media (max-width:780px) {
+   
+    .alllogo img{
+        width: 3rem;
+        height: 2rem;
+        margin-left: 3rem;
+    }
+    .allh {
+        margin-left: 11rem;
+    }
+    .sth {
+        margin-left: 27rem;
+    }
+    .header_cont h5 {
+        margin-left: 8.9rem;
+    }
+    .header_cont img {
+        margin-left: 11.9rem;
+    }
+    .headtext {
+        padding-left: .5rem;
+        padding-top: 7rem;
+        width: 56%;
+    }
+    .videoimg img {
+        height: 8rem;
+    }
+    .cards {
+        height: 112rem;
+    }
+    .button04 {
+        padding-left: 1rem;
+    }
+    .cardbt {
+        width: 13.7rem;
+    }
+    .button03 li {
+        width: 6rem;
+    }
+    .button05 {
+        margin-left: 11rem;
+    }
+
+    .limage img {
+        height: 14rem;
+        width: 23rem;
+        margin-left: 5.5rem;
+    }
+   .lright {
+        margin-left: 1rem;
+    }
+    .lright h3 {
+        
+        margin-left: 4rem;
+        width: 23rem;
+    }
+    .learnany {
+        display: contents;
+    }
+    .rights {
+        margin-left: 2rem;
+        width: 21rem;
+    }
+    
+    
+    .rightss {
+        margin-left: 1rem;
+    }
+.learn {
+    height: 45rem;
+}
+.lright {
+    margin-left: 4rem;
+}
+.num{
+    display: initial;
+}
+.sleft{
+    display: flex;
+    margin-left: 8rem;
+    margin-bottom: 4rem;
+}
+.sright{
+    display: flex;
+    margin-left: 8rem;
+    
+}
+.stc {
+    margin-top: 3rem;
+    margin-left: -16rem;
+    margin-bottom: 3rem;
+}
+.v2{
+    display: none;
+}
+.we_coll {
+    height: 7rem;
+}
+.st {
+    height: 22rem;
+}
+    
+.wrapper .table {
+    width: 92%;
+}
+
+::selection{
+  color: #fff;
+}
+.table .ribbon{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  overflow: hidden;
+}
+.table .ribbon::before,
+.table .ribbon::after{
+  position: absolute;
+  content: "";
+  z-index: -1;
+  display: block;
+  border: 7px solid #4606ac;
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+.table .ribbon::before{
+  top: 0px;
+  right: 15px;
+}
+.table .ribbon::after{
+  bottom: 15px;
+  left: 0px;
+}
+.table .ribbon span{
+  position: absolute;
+  top: 30px;
+  right: 0;
+  transform: rotate(-45deg);
+  width: 200px;
+  background: #a26bfa;
+  padding: 10px 0;
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  text-transform: uppercase;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+}
+.features li .list-name {
+    padding-right: 1.8rem;
+}
+.wrapper h5 {
+    padding-left: 8.7rem;
+}
+.price_card .p {
+     margin-left: 12rem;
+}
+.btn_group {
+    width: 44%;
+    margin-left: 11rem;
+}
+.wrapper {
+    margin-top: 5.2rem;
+}
+.wrapper {
+    width: 90%;
+    margin-left: 3.5rem;
+}
+.wrapper h5 {
+    padding-left: 5rem;
+}
+.foot {
+    height: 24rem;
+}
+.price_card h1 {
+    margin-left: 12rem;
+}
+.price_card p{
+margin-left: 1rem;
+}
+.wht {
+    margin-left: 1rem;
+    font-size: large;
+}
+.caro_p {
+    margin-left: 10rem;
+}
+.wht {
+    margin-left: 7rem;
+}
+.caro_p {
+    margin-left: 14rem;
+}
+.owl-item{
+    width: 324px;
+  }
+  .bodys{
+      width: 10.5rem;
+      padding: .5rem;
+      margin: 0rem;
+      height: 18rem;
+  }
+  .bodys p{
+      font-size:.8rem;
+  }
+  .carousel{
+      padding-left: 2rem;
+  }
+  .unlimited {
+    display: flex;
+    padding-left: 2rem;
+}
+.videoimg {
+    padding-top: 8rem;
+}
+
+
+}
+
+@media (max-width: 500px) {
+   
+    .button1{
+        display: initial;
+    }
+    .button01 {
+        width: 8rem;
+        height: 2rem;
+        margin-left: 5.5rem;
+        margin-top: 1rem;
+    }
+    .button02 {
+        width: 10rem;
+        height: 2rem;
+        margin-left: 4rem;
+        padding-top: .5rem;
+    }
+    .headtext h3 {
+        font-size: large;
+    }
+    .headtext p {
+        font-size: xx-small;
+    }
+   
+    nav .menu-icon, nav .cancel-icon, .search-icon {
+        margin: 0px -5px;
+    }
+    .header_cont img {
+        margin-left: 6rem;
+        height: 4rem;
+        width: 7rem;
+        padding-top: 2;
+    }
+    .header_cont {
+        padding-top: 6rem;
+        padding-left: 1rem;
+    }
+    .header_cont h5 {
+        margin-left: 0.5rem;
+        font-size: xx-small;
+        width: 18rem;
+        padding-top: 1rem;
+    }
+    .button1 {
+        background-color: #26cdff;
+        color: black;
+        font-size: smaller;
+        padding: .3rem;
+        height: 1.3rem;
+       
+    } 
+    .bt {
+        margin-left: 3rem;
+    }
+    .unlimited {
+        display: contents;
+    }
+    .headtext {
+        color: #fff;
+        padding-left: 4.5rem;
+        padding-top: 4rem;
+        width: 83%;
+    }
+    
+    .wrapper {
+        margin-left: 2.5rem;
+        margin-top: 3.2rem;
+
+    }
+    .bgimg{
+        height: 44rem;
+    }
+    .video{
+        width: 80%;
+        margin-left: -1rem;
+    }
+    .playpause{
+        width: 15%;
+        right: 30%;
+    }
+    
+    .logo img {
+        height: 1.7rem;
+        width: 3rem;
+    }
+    .button2{
+        padding: 0rem;
+    }
+    .button1{
+        padding: 0rem;
+    }
+    .button1{
+        background-color: black;
+    }
+    .button03
+        {
+            width: 7rem;
+        }
+        .button04 {
+            padding-left: 1rem;
+        }
+    nav .nav-items {
+        position: absolute;
+    }
+    .videoimg {
+        padding-left: 5rem;
+        padding-top: 2rem;
+    }
+    .videoimg img {
+        margin-right: 4.5rem;
+        height: 8rem;
+    }
+    .cards h2
+        {
+            margin-left: 3rem;
+        }
+        .card {
+            width: 75%;
+            margin-left: 3rem;
+        }
+        .cardbt {
+            width: 14rem;
+            margin-left: 4rem;
+        }
+    .headnav nav {
+        padding: 0px 56px;
+       
+    }
+    .header_cont {
+        padding-top: 6rem;
+        padding-left: 2rem;
+    }
+    .cards {
+        height: 207rem;
+    }
+    .button05 {
+        margin-left: 6rem;
+    }
+    .allh {
+        margin-left: 5rem;
+    }
+    .alllogo img {
+        width: 3rem;
+        height: 2rem;
+        margin-left: 1rem;
+    }
+    .limage img {
+        height: 10rem;
+        width: 16rem;
+        margin-left: 2.5rem;
+    }
+    
+    .lright h3 {
+        margin-left: 1rem;
+        width: 14rem;
+        font-size: inherit;
+    }
+    .rights {
+        margin-left: -3rem;
+        width: 21rem;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 1rem;
+    }
+    .rights h5 {
+        font-weight: bold;
+        font-size: .5rem;
+    }
+    .rights img {
+        width: 2rem;
+    }
+    .rightss {
+        margin-left: 3rem;
+    }
+    .lright {
+       
+        width: 17rem;
+    }
+    .sth {
+        margin-left: 20.5rem;
+        font-size: 1.4rem;
+    }
+    .num1 {
+        padding-left: 1rem;
+    }
+    .vl{
+        margin-left: 1rem;
+    }
+    
+    .sleft {
+        margin-left: 1rem;
+    }
+    
+    .sright {
+        margin-left: 1rem;
+    }
+    .num1 p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: .3rem;
+        margin-right: .5rem;
+    }
+    
+    
+    .learn {
+        height: 39rem;
+    }
+    .alllogo {
+         margin-left: 0rem;
+    }
+    .we_coll {
+        height: 9rem;
+    }
+    .price_card h1 {
+        margin-left: 4rem;
+    }
+    .price_card .p {
+        margin-left: 4rem;
+    }
+    .btn_group {
+        width: 59%;
+        margin-left: 4rem;
+    }
+    .wrapper h5 {
+        padding-left: 6.7rem;
+    }
+    .caro_p {
+        margin-left: 7rem;
+    }
+    .wht {
+        margin-left: 2rem;
+        font-size: 1rem;
+    }
+    #myBtn {
+        right: .5rem;
+    }
+    .btn.btn-1 input:not(:checked)+label {
+        bottom: 4px;
+    }
+    .btn.btn-1 input:not(:checked) {
+        height: 2rem;
+    }
+    .btn.btn-1 input:checked {
+        height: 2rem;
+    }
+    .btn.btn-1 input:checked+label {
+        bottom: 4px;
+    }
+    .foot {
+        height: 53rem;
+    }
+    .bodyf {
+        padding-left: 6rem;
+    }
+    .bodys{
+        width: 6.5rem;
+        padding: 0rem;
+        height: 24rem;
+    }
+    .bodys i{
+        font-size: xx-small;
+    }
+    .box h5{
+        font-size: .2rem;
+        margin-left: 1rem;
+        font-weight: 100;
+    }
+}
+
+
+
+@media (max-width: 350px){
+  nav .menu-icon,
+  nav .cancel-icon,
+  nav .search-icon{
+    margin: 0 10px;
+    font-size: 16px;
+  }
+
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.content header{
+  font-size: 30px;
+  font-weight: 700;
+}
+.content .text{
+  font-size: 30px;
+  font-weight: 700;
+}
+.content .space{
+  margin: 10px 0;
+}
+}
